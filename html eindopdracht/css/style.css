@@ -1,0 +1,71 @@
+/* Resetten van standaardopmaak */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Algemene stijl voor de hele website */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Headerstijlen */
+header {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Stijlen voor de hoofdsectie */
+.main-section {
+    text-align: center;
+    padding: 100px 0;
+    background-image: url('kanye-back.jpg');
+    background-size: cover;
+    color: #000000;
+}
+* {
+    font-family: 'Courier New', Courier, monospace;
+    border-color: #000;
+    font-weight: 400;
+    font-size: medium;
+    border: #000;
+}
+div {
+    background-color: green;
+    color: white;
+    padding: 25px;
+    text-align: center;
+  }
+  
+  div:hover {
+    background-color: blue;
+  }
+
+  p::first-line {
+    color: #ff0000;
+    font-variant: small-caps;
+  }
+  div p {
+    background-color: yellow;
+  }
